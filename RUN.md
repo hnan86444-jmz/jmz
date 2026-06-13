@@ -1,4 +1,4 @@
-# 凌云智矿 - 智能矿业日报系统
+# 智能矿业日报系统
 
 基于 LangGraph 和 MCP (Model Context Protocol) 的智能矿业日报生成系统。
 
