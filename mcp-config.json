@@ -1,0 +1,137 @@
+{
+  "mcp_servers": [
+    {
+      "name": "news-server",
+      "protocol": "http",
+      "host": "localhost",
+      "port": 8001,
+      "description": "矿业新闻数据服务",
+      "tools": [
+        {
+          "name": "get_mining_news",
+          "description": "获取指定矿种的新闻资讯",
+          "parameters": [
+            {
+              "name": "mineral",
+              "type": "string",
+              "description": "矿种名称，如锂矿、铜矿等",
+              "default": "锂矿"
+            }
+          ]
+        },
+        {
+          "name": "get_news_summary",
+          "description": "对新闻数据进行摘要处理",
+          "parameters": [
+            {
+              "name": "news_data",
+              "type": "string",
+              "description": "新闻数据JSON字符串"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mining-data-server",
+      "protocol": "http",
+      "host": "localhost",
+      "port": 8002,
+      "description": "矿产储量数据服务",
+      "tools": [
+        {
+          "name": "get_reserve_data",
+          "description": "获取指定矿种和地区的储量数据",
+          "parameters": [
+            {
+              "name": "mineral",
+              "type": "string",
+              "description": "矿种名称",
+              "default": "锂矿"
+            },
+            {
+              "name": "region",
+              "type": "string",
+              "description": "地区名称",
+              "default": "Pilbara"
+            }
+          ]
+        },
+        {
+          "name": "get_deposit_details",
+          "description": "获取指定矿床的详细信息",
+          "parameters": [
+            {
+              "name": "deposit_name",
+              "type": "string",
+              "description": "矿床名称"
+            }
+          ]
+        },
+        {
+          "name": "get_production_stats",
+          "description": "获取产量统计数据",
+          "parameters": [
+            {
+              "name": "period",
+              "type": "string",
+              "description": "统计周期",
+              "default": "annual"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "price-server",
+      "protocol": "http",
+      "host": "localhost",
+      "port": 8003,
+      "description": "矿产品价格数据服务",
+      "tools": [
+        {
+          "name": "get_price_data",
+          "description": "获取指定矿种的价格数据",
+          "parameters": [
+            {
+              "name": "mineral",
+              "type": "string",
+              "description": "矿种名称",
+              "default": "锂矿"
+            },
+            {
+              "name": "currency",
+              "type": "string",
+              "description": "货币类型",
+              "default": "CNY"
+            }
+          ]
+        },
+        {
+          "name": "get_price_trend",
+          "description": "获取价格走势数据",
+          "parameters": [
+            {
+              "name": "days",
+              "type": "integer",
+              "description": "天数",
+              "default": 30
+            }
+          ]
+        },
+        {
+          "name": "get_price_analysis",
+          "description": "获取价格分析报告",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "agent": {
+    "name": "矿权日报Agent",
+    "description": "用于生成矿权日报的智能代理，整合新闻、储量和价格数据",
+    "entry_point": "agents/mining_agent.py",
+    "default_query": "给我生成一份关于 Pilbara 锂矿的今日简报"
+  },
+  "version": "1.0.0"
+}

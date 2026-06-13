@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  news-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    container_name: mining-news-server
+    ports:
+      - "8001:8001"
+    environment:
+      - SERVER_PORT=8001
+      - SERVER_NAME=news-server
+    command: python -m servers.news_server
+    networks:
+      - mining-network
+
+  mining-data-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    container_name: mining-data-server
+    ports:
+      - "8002:8002"
+    environment:
+      - SERVER_PORT=8002
+      - SERVER_NAME=mining-data-server
+    command: python -m servers.mining_data_server
+    networks:
+      - mining-network
+
+  price-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    container_name: mining-price-server
+    ports:
+      - "8003:8003"
+    environment:
+      - SERVER_PORT=8003
+      - SERVER_NAME=price-server
+    command: python -m servers.price_server
+    networks:
+      - mining-network
+
+  mining-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile.agent
+    container_name: mining-agent
+    depends_on:
+      - news-server
+      - mining-data-server
+      - price-server
+    environment:
+      - NEWS_SERVER_URL=http://news-server:8001
+      - MINING_SERVER_URL=http://mining-data-server:8002
+      - PRICE_SERVER_URL=http://price-server:8003
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    command: python -m agents.mining_agent
+    networks:
+      - mining-network
+
+networks:
+  mining-network:
+    driver: bridge
