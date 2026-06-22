@@ -1,0 +1,265 @@
+{
+  "status": "stopped",
+  "transcript": [
+    {
+      "turn": 0,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your departure date from Jinan and return date?"
+    },
+    {
+      "turn": 0,
+      "from": "user",
+      "content": "出发 2026-04-01，返程 2026-04-08"
+    },
+    {
+      "turn": 1,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your origin city?"
+    },
+    {
+      "turn": 1,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 2,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your origin city and preferred airport?"
+    },
+    {
+      "turn": 2,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 3,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your destination for the trip?"
+    },
+    {
+      "turn": 3,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 4,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "Where will you be traveling from?"
+    },
+    {
+      "turn": 4,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 5,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your destination?"
+    },
+    {
+      "turn": 5,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 6,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "Where will you be traveling from?"
+    },
+    {
+      "turn": 6,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 7,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your destination?"
+    },
+    {
+      "turn": 7,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 8,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your origin city?"
+    },
+    {
+      "turn": 8,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 9,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your departure city and preferred airport?"
+    },
+    {
+      "turn": 9,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 10,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your destination?"
+    },
+    {
+      "turn": 10,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 11,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "Where will you be traveling from?"
+    },
+    {
+      "turn": 11,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 12,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your destination for the trip?"
+    },
+    {
+      "turn": 12,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 13,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your origin city?"
+    },
+    {
+      "turn": 13,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 14,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your departure city and preferred airport?"
+    },
+    {
+      "turn": 14,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 15,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your destination?"
+    },
+    {
+      "turn": 15,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 16,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your origin city?"
+    },
+    {
+      "turn": 16,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 17,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your destination?"
+    },
+    {
+      "turn": 17,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 18,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "Where will you be traveling from?"
+    },
+    {
+      "turn": 18,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 19,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your departure city and preferred airport?"
+    },
+    {
+      "turn": 19,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    }
+  ]
+}

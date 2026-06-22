@@ -1,0 +1,265 @@
+{
+  "status": "stopped",
+  "transcript": [
+    {
+      "turn": 0,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "请问您的出发日期和返回日期是什么时候？"
+    },
+    {
+      "turn": 0,
+      "from": "user",
+      "content": "2026-04-01"
+    },
+    {
+      "turn": 1,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "Is '2026-04-01' your trip start date or return date? Also, please provide your origin and destination locations."
+    },
+    {
+      "turn": 1,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 2,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your origin city?"
+    },
+    {
+      "turn": 2,
+      "from": "user",
+      "content": "按常规推荐即可；如需信息请明确要哪一项。"
+    },
+    {
+      "turn": 3,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your trip origin city?"
+    },
+    {
+      "turn": 3,
+      "from": "user",
+      "content": "按常规推荐即可；如需信息请明确要哪一项。"
+    },
+    {
+      "turn": 4,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "请提供您的出发地、目的地、旅行日期和预算，以便我为您规划行程。"
+    },
+    {
+      "turn": 4,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 5,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your origin city and preferred airport?"
+    },
+    {
+      "turn": 5,
+      "from": "user",
+      "content": "按常规推荐即可；如需信息请明确要哪一项。"
+    },
+    {
+      "turn": 6,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "请问您的出发地是哪里？"
+    },
+    {
+      "turn": 6,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 7,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your destination?"
+    },
+    {
+      "turn": 7,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 8,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your origin city for the trip to London?"
+    },
+    {
+      "turn": 8,
+      "from": "user",
+      "content": "按常规推荐即可；如需信息请明确要哪一项。"
+    },
+    {
+      "turn": 9,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "请问您的出发地是哪里？"
+    },
+    {
+      "turn": 9,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 10,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your departure city and preferred airport?"
+    },
+    {
+      "turn": 10,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 11,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your destination city?"
+    },
+    {
+      "turn": 11,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 12,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your origin city?"
+    },
+    {
+      "turn": 12,
+      "from": "user",
+      "content": "按常规推荐即可；如需信息请明确要哪一项。"
+    },
+    {
+      "turn": 13,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your trip origin city?"
+    },
+    {
+      "turn": 13,
+      "from": "user",
+      "content": "按常规推荐即可；如需信息请明确要哪一项。"
+    },
+    {
+      "turn": 14,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "请问您的出发地是哪里？"
+    },
+    {
+      "turn": 14,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 15,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your destination?"
+    },
+    {
+      "turn": 15,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 16,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "Where will you be traveling from?"
+    },
+    {
+      "turn": 16,
+      "from": "user",
+      "content": "按常规推荐即可；如需信息请明确要哪一项。"
+    },
+    {
+      "turn": 17,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "请问您的出发地是哪里？"
+    },
+    {
+      "turn": 17,
+      "from": "user",
+      "content": "济南（遥墙国际机场 TNA）"
+    },
+    {
+      "turn": 18,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your destination?"
+    },
+    {
+      "turn": 18,
+      "from": "user",
+      "content": "伦敦（London）"
+    },
+    {
+      "turn": 19,
+      "from": "agent",
+      "require_user_input": true,
+      "is_task_complete": false,
+      "response_type": "text",
+      "content": "What is your origin city?"
+    },
+    {
+      "turn": 19,
+      "from": "user",
+      "content": "按常规推荐即可；如需信息请明确要哪一项。"
+    }
+  ]
+}
