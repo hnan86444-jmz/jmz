@@ -1,0 +1,19 @@
+1) MCP（10100）
+cd c:\Users\24514\Desktop\mcp-server-demo\a2a_mcp
+uv run  a2a-mcp --run mcp-server --transport sse --port 10100
+2) Planner（10102）
+cd c:\Users\24514\Desktop\mcp-server-demo\a2a_mcp
+uv run  python -m a2a_mcp.agents --agent-card agent_cards/planner_agent.json --port 10102
+3) Air（10103）
+cd c:\Users\24514\Desktop\mcp-server-demo\a2a_mcp
+uv run  python -m a2a_mcp.agents --agent-card agent_cards/air_ticketing_agent.json --port 10103
+4) Hotel（10104）
+cd c:\Users\24514\Desktop\mcp-server-demo\a2a_mcp
+uv run python -m a2a_mcp.agents --agent-card agent_cards/hotel_booking_agent.json --port 10104
+5) Car（10105）
+cd c:\Users\24514\Desktop\mcp-server-demo\a2a_mcp
+uv run  python -m a2a_mcp.agents --agent-card agent_cards/car_rental_agent.json --port 10105
+6) Gradio（7860）
+cd c:\Users\24514\Desktop\mcp-server-demo\a2a_mcp
+uv run python -m a2a_mcp.gradio_app
+# 或：uv run --env-file .env a2a-mcp-ui
